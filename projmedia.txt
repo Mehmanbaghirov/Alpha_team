@@ -1,0 +1,160 @@
+   .contr{
+        margin-left: 60px;
+        
+    }
+
+
+    .dateinfo{
+        display: flex;
+        flex-direction: row;
+    }
+    .dateinfo img{
+        width: 22px;
+        height: 22px;
+        margin-right: 5px;
+    }
+    .dateinfo p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+     margin:0;      
+     margin-right: 30px;
+     line-height: 23px;
+    }
+
+
+    .headlogo{
+          display: block ;
+           margin-top: 15px;
+        margin-bottom: 60px;
+        width: 112px;
+        height: 66px;
+    }
+
+    .groupp{
+        display: block;
+        margin:  70px auto   ;
+       width:  483.63px;
+       height: 200.02px;
+    }
+    h1{
+        font-weight: 700;
+        font-size: 80px;
+        width: 628px;
+        height: 190px;
+        flex-wrap: wrap;
+        font-family: 'Roboto Slab', serif;
+    } 
+    
+  
+    .howtowatchmovie{
+        margin-top:20px;
+        display: flex;
+        flex-direction: row;
+        gap:150px;
+       
+    }
+    .howtowatchmovie img{
+
+        width: 305px;
+        height: 376px;   
+        
+    }
+    .howtowatchmovie .txt {
+      
+        width: 50%;
+     margin-top: 20px;
+    }
+    
+    .howtowatchmovie .txt h1{
+        margin: 0;
+    }
+    
+    .howtowatchmovie .txt p{
+    font-size:20px;
+    font-weight: 400;
+    flex-wrap: wrap;
+    width: 414px;
+    height: 62px;
+    margin: 0;
+    }   
+
+
+@media (max-width:768px){
+    .headlogo{
+          display: block ;
+           margin-top: 22px;
+        margin-bottom: 57.92px;
+        width: 64.87px;
+        height: 38.23px;
+    }
+    .contr{
+        margin-left: 70.08px;
+        
+    }
+
+
+    .dateinfo p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+     margin:0;      
+     margin-right: 40px;
+     line-height: 13.8px;
+    }
+    .dateinfo img{
+        width: 12.74px;
+        height: 12.16px;
+        margin-right: 8.11px;
+    }
+
+ 
+    
+    h1{
+        line-height: 46.64px;
+        font-weight: 700;
+        font-size: 46px;
+       width:  100%;
+     height:   110.04px;
+        flex-wrap: wrap;
+        font-family: 'Roboto Slab', serif;
+    } 
+    .howtowatchmovie .txt h1{
+        margin: 0;
+        height: fit-content;
+    }
+    
+    .howtowatchmovie{
+        margin-top:15.64px;
+    gap: 20px;
+       
+    }
+
+    .howtowatchmovie img{
+
+width: 176.07px;
+height: 206.18px;   
+
+}
+.howtowatchmovie .txt {
+    display:flex;
+        flex-direction: column;
+        gap:10px;
+        width: 60%;
+     margin-top: 20px;
+    }
+
+    .howtowatchmovie .txt p{
+        display: flex;
+    font-size:12px;
+    line-height: 18px;
+    font-weight: 400;
+    flex-wrap: wrap;
+   width: 100%;
+    height: 26px;
+    margin: 0;
+ margin-top: 10px;
+    }
+
+    
+   }
