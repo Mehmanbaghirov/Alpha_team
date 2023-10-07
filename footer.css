@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.block {
+  height: 24.375rem;
+  background-color: black;
+  padding: 3.12rem 9.13rem 2.8rem 7.62rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.photo1 {
+  max-width: 7.1875rem;
+}
+
+
+.row {
+  display: flex;
+  margin-bottom: 9.12rem;
+}
+
+.column {
+  display: flex;
+}
+
+.column2 {
+  display: flex;
+}
+
+
+
+#logo_mobile {
+  width: 7.98vw;
+  height: 4.72vw;
+  margin-bottom: 1.87rem;
+  
+}
+
+
+#inst {
+  width: 2.29vw;
+  height: 2.29vw;
+  margin-right: 1.13rem;
+}
+
+#fb {
+  width: 2.29vw;
+  height: 2.29vw;
+  margin-right: 1.31rem; 
+}
+
+#vk {
+  width: 2.43vw;
+  height: 2.43vw;
+  margin-right: 1.55rem; 
+}
+
+#vp {
+  width: 2.36vw;
+  height: 2.36vw;
+}
+
+.synchronize {
+  width: 14.375rem;
+  height: 2.5rem;
+	color: white;
+	font-family: Roboto;
+	font-size: 1.25vw;
+  font-weight: 400;
+  line-height: 101.385%;
+}
+
+
+#phone_icon {
+  width: 1.875vw;
+  margin-top: 0;
+  margin-bottom: 1.56rem;
+  margin-right: 1.38rem;
+}
+
+.text-2 {
+  width: 14.375rem;
+  height: 2.5rem;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0.19rem;
+  font-size: 1.73vw;
+  font-weight: 400;
+  line-height: 101.385%;
+}
+
+.text-3 {
+  font-size: 1.73vw;
+  font-weight: 400;
+  width: 16.8125rem;
+  height: 2.5rem;
+  color: white;
+  line-height: 101.385%;
+}
+
+#message_icon {
+  width: 1.875vw;
+  height: 1.25vw;
+  margin-right: 1.37rem;
+}
+
+
+@media  (min-width: 768px) and (max-width: 1024px) {
+  .block {
+    height: 225.875px;
+  }
+
+  .synchronize{
+    width: 9.3255rem;
+    height: 1.44794rem;
+    font-size: 1.2vw;
+  }
+
+  .row {
+    margin-bottom: 110px;
+  }
+
+  #logo_mobile {
+    width: 7.98vw;
+    height: 4.71vw;
+    margin-bottom: 17.38px;
+  }
+
+  #inst,
+  #fb,
+  #vp,
+  #vk {
+    width: 2.39vw;
+    height: 2.39vw;
+    margin-right: 10.43px;
+  }
+
+  #phone_icon {
+    width: 1.87vw;
+    height: 1.87vw;
+  }
+
+  #message_icon {
+    width: 1.87vw;
+    height: 1.2vw;
+  }
+
+  .text-2 {
+    width: 10rem;
+    height: 1.44794rem;
+    font-size: 1.67vw;
+  }
+
+  .text-3 {
+    width: 10rem;
+    height: 1.44794rem;
+    font-size: 1.67vw;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .block {
+    height: 66.93vw;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .synchronize{
+    width: 37.6vw;
+    font-size: 2.53vw;
+    margin-bottom: 2rem;
+  }
+
+  .row {
+    margin-bottom: 12.53vw;
+  }
+
+  #logo_mobile {
+    width: 13.6vw;
+    height: 8.04vw;
+    margin-bottom: 3.73vw;
+  }
+
+  #inst,
+  #fb,
+  #vp,
+  #vk {
+    width: 4.26vw;
+    height: 4.26vw;
+    margin-right: 2.23vw;
+  }
+
+  #phone_icon {
+    width: 3.35vw;
+    height: 3.35vw;
+  }
+
+  #message_icon {
+    width: 3.35vw;
+    height: 2.23vw;
+  }
+
+  .text-2 {
+    width: 28.58vw;
+    font-size: 3.2vw;
+  }
+
+  .text-3 {
+    width: 33.42vw;
+    font-size: 3.2vw;
+  }
+
+  .right-side {
+    margin-bottom: 3.06rem;
+    width: 40vw;
+  }
+
+}
+
+
+
