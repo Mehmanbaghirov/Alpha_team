@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: 'Roboto Slab', serif;
+}
+
+.over{
+    /*margin-left: 121px;
+    margin-right: 153px;*/
+    margin: 0 auto;
+    width: calc(100% - 16.8vw);
+}
+
+.over h1{
+    font-size: 3.81vw;
+    line-height: 3.87vw;
+font-family: "Roboto Slab";
+font-weight: 700;
+color: rgba(0, 0, 0, 1);
+width: 25.34vw;
+height: 6.45vw;
+margin-bottom: 1.25vw;
+}   
+.bir{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4.8vw;
+   }
+.birchild{
+    width: 46.32vw;
+    height: 27.71vw;
+    font-size: 1.67vw;
+    line-height: 150%;
+font-family: "Roboto";
+font-weight: 400;
+color: rgba(0, 0, 0, 1);
+}
+.photoa{
+    margin-left: 10vw;
+    width: 21.875vw;
+    height: 21.875vw;
+    padding-bottom: 0;
+    padding-top: 2vw;
+    }
+    
+.birchild p{
+    margin-bottom: 4vw;
+}
+
+.iki{
+    
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    gap:9.17vw;  
+   
+    /* width: 60vw; */
+}
+.ikichild{
+    width: 44.3vw;
+    height: 5.9vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top:8.861vw ;
+ 
+    gap:6.6vw;
+}
+.tren{
+    width: 10.41vw;
+    height: 5.5vw;
+
+}
+.tren p{
+    font-weight: 400;
+    width: 11.5vw;
+    height: 3.125vw;
+    line-height: 1.625vw;
+    font-size: 1.25vw;
+}
+.tren .strongg  {
+    width: 10.4vw;
+    height: 3.125vw;
+font-size: 1.94vw;
+line-height: 2.25vw;
+font-weight: 700;
+margin-bottom: 0.07vw;
+}
+
+
+.photob{
+    width:16.1vw;
+    height: 14.1vw;
+    margin-top: 5vw;
+    }
+    
+    
+   .uc .card2 {
+        padding: 11.25vw 24.028vw 15vw 8.403vw;
+    }
+    
+  .uc h2{
+        font-family: Roboto Slab;
+        font-size: 3.819vw;
+        font-weight: 700;
+        margin-bottom: 8.264vw;
+    }
+    
+    .uc .format-cards{
+        display: flex;
+        flex-direction: row;
+    }
+    .uc .format-card{
+        width: 18.819vw;
+        margin-right: 8.472vw;
+    }
+    
+    .uc .format-card h3{
+        font-family: 'Roboto', sans-serif;
+        color: #1E4681;
+        font-size: 1.736vw;
+        font-weight: 700;
+        margin-bottom: 1.042vw;
+    }
+    .uc .card-text{
+        font-family: 'Roboto', sans-serif;
+        color: #000;
+        font-size: 1.25vw;
+        font-weight: 400;
+        width: 100%;
+    }
+    
+    .uc .card2{
+     padding-inline: 0vw;
+    }
+    
+    
+
+
+
+
+@media (min-width:768px) and (max-width:1024px){
+
+    .over{
+        margin: 0 auto;
+        width: calc(100% - 16.92vw);
+    }
+     
+.over h1{
+    font-size: 6.93vw;
+    line-height: 7vw;
+    width: 34vw;
+height: 7.7vw;
+margin-bottom: 6vw;
+}
+.bir{
+  
+    margin-bottom: 5.2vw;
+
+   }
+   .birchild{
+    width: 46.28vw;
+    height: 27.3vw;
+    font-size: 1.67vw;
+    line-height: 150%;
+}
+
+.photoa{
+    margin-left: 12.9vw;
+    width: 21.875vw;
+    height: 21.875vw;
+    padding-bottom: 0;
+    padding-top: 1.8vw;
+    }
+
+    .ikichild{
+        width: 44.3vw;
+        height: 5.5vw;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        /* margin-top:4.85vw ; */
+ 
+        gap:6.1vw;
+    }
+
+    .tren{
+        width: 11vw;
+        height: 5.5vw;
+    
+    }
+
+    .tren p{
+      
+        width: 11.4vw;
+        height: 2.76vw;
+        line-height: 1.71vw;
+        font-size: 1.32vw;
+    }
+    .tren .strongg  {
+        width: 10.4vw;
+        height: 3.07vw;
+    font-size: 1.8vw;
+    line-height: 2.34vw;
+
+    margin-bottom: 0.07vw;
+    }
+    
+    .photob{
+        width:16.1vw;
+        height: 14.1vw;
+        /* margin-top: 10vw; */
+        }
+
+        .uc  .card2 {
+            padding: 11.229vw 23.888vw 15.294vw 8.513vw;
+        }
+      
+        .uc  h2{
+            font-size: 3.837vw;
+            margin-bottom: 8.993vw;
+        }
+      
+        .uc  .format-card{
+            width: 19.904vw;
+            margin-right: 6.835vw;
+        }
+      
+        .uc    .format-card h3{
+            font-size: 1.799vw;
+            margin-bottom: 0.959vw;
+        }
+        .uc   .card-text{
+            font-size: 1.319vw;
+            width: 100%;
+        }
+      
+        .uc  .card2{
+        padding-inline: 0vw;
+        }
+      
+ 
+
+}
+@media (max-width:767px) and (min-width:320px){
+   
+    .over{
+  
+        margin: 0 auto ;
+        width: calc( 100% - 18.13vw );
+    }
+
+    .over h1{
+        font-size: 3.83vw;
+        line-height: 3.9vw;
+        width: 25.34vw;
+    height: 6.46vw;
+    margin-bottom: 1.25vw;
+    margin-top: 20vw;
+    }
+
+    .bir{
+        flex-direction: column;
+        margin-bottom: 0vw;
+        gap: 3.46vw;
+    
+       }
+
+       .birchild{
+        width: 81.87vw;
+        height: 58vw;
+        font-size: 3.2vw;
+        line-height: 150%;
+    }
+
+    .photoa{
+        margin-bottom: 0vw;
+        margin-top: 3.2vw;
+        margin-left: auto;
+        margin-right: auto;
+        width: 45.48vw;
+        height: 42.75vw;
+        display: flex;
+     
+        }
+.photob{
+  display: none;
+    }
+
+    .iki{
+    
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: row;
+        gap:0vw;  
+      
+       
+        /* width: 60vw; */
+    }
+
+    .ikichild{
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap ;
+        margin-top:12.2vw ;
+     
+        gap:9vw;
+    }
+
+    .tren{
+        width: 23vw;
+        height: 10vw;
+    
+    }
+    .tren p{
+     
+        width: 23vw;
+        height: 7.5vw;
+        line-height: 3.46vw;
+        font-size: 2.7vw;
+    }
+    .tren .strongg  {
+        width: 18.67vw;
+        height: 4.85vw;
+    font-size: 3.2vw;
+    line-height: 4.16vw;
+    margin-bottom: 0.22vw;
+    }
+    
+        .uc .card2 {
+            padding: 18.133vw 29.067vw 19.467vw 9.6vw;
+        }
+      
+        .uc  h2{
+            font-size: 6.933vw;
+            margin-bottom: 4.53vw;
+            width: 100%;
+            height: 11.47vw;
+        }
+      
+        .uc .format-cards {
+          flex-direction: column;
+        }
+      
+        .uc .format-card{
+            width: 48vw;
+            margin-bottom: 8vw;
+        }
+      
+        .uc  .format-card h3{
+            font-size: 3.2vw;
+            margin-bottom: 0.267vw;
+        }
+        .uc .card-text{
+            font-size: 2.667vw;
+            width: 100%;
+        }
+      
+       .uc .card2{
+        padding-inline:0vw;
+            }    
+      
+
+    
+}
